@@ -1,4 +1,5 @@
-import numpy as np
+import warnings
+import autograd.numpy as np
 import math
 
 def dev (f):
