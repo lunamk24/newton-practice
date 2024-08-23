@@ -5,6 +5,10 @@ def dev (f):
     fd_fuc = np.derivative(f)
     return(fd_fuc)
 
+def sec_dev(f, x0):
+    result = np.derivative(f, x0)
+    return(result)
+
 def newtons_method(x0, function):
     t = 0 # iteration start point
     xt = 0
